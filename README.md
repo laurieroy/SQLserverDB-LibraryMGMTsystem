@@ -14,7 +14,7 @@ Stored procedures were created to answer the following questions:
 [1](uspBookCount.sql) How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"? 
 
 [2](uspBookCountBranchesShort.sql) How many copies of the book titled "The Lost Tribe" are owned by each library branch?
-	[returns with branch name][uspBookCountBranches.sql]
+	[returns with branch name](uspBookCountBranches.sql)
 
 [3](uspMemberNoneCheckedout.sql) Retrieve the names of all borrowers who do not have any books checked out.
 
