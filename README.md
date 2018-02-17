@@ -7,11 +7,11 @@ Assignment: Using MS SQL Server 2014 Express, create a database and schema as de
 ## Tech Academy SQL server drill
 Created 6/21/2017 by Laurie Roy for the database course, Tech Academy, Portland, OR
 
-Additionally, there were certain requirements about the number of books, branches, authors, publishers and patrons. I created a mock library of 4 branches and 93 books, 30 authors, 15 publishers, and 10 patrons.  To view, restore the backup (./Tech-Acad-Projects/tree/master/sql_srvr_db) or view the files individually.
+Additionally, there were certain requirements about the number of books, branches, authors, publishers and patrons. I created a mock library of 4 branches and 93 books, 30 authors, 15 publishers, and 10 patrons.  To view, restore the [backup](./Tech-Acad-Projects/tree/master/sql_srvr_db) or view the files individually.
 
 Stored procedures were created to answer the following questions: 
 
-[1][dbo.uspBookCount.sql] How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"? 
+[1](uspBookCount.sql) How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"? 
 
 [2][dbo.uspBookCountBranchesShort.sql] How many copies of the book titled "The Lost Tribe" are owned by each library branch?
 	[returns with branch name][dbo.uspBookCountBranches.sql]
