@@ -13,15 +13,15 @@ Stored procedures were created to answer the following questions:
 
 [1](uspBookCount.sql) How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"? 
 
-[2][dbo.uspBookCountBranchesShort.sql] How many copies of the book titled "The Lost Tribe" are owned by each library branch?
-	[returns with branch name][dbo.uspBookCountBranches.sql]
+[2](uspBookCountBranchesShort.sql) How many copies of the book titled "The Lost Tribe" are owned by each library branch?
+	[returns with branch name][uspBookCountBranches.sql]
 
-[3][dbo.uspMemberNoneCheckedout.sql] Retrieve the names of all borrowers who do not have any books checked out.
+[3](uspMemberNoneCheckedout.sql) Retrieve the names of all borrowers who do not have any books checked out.
 
-[4][dbo.uspCheckedoutDueToday.sql] For each book that is loaned out from the "Sharpstown" branch and whose DueDate is today, retrieve the book title, the borrower's name, and the borrower's address.
+[4](uspCheckedoutDueToday.sql) For each book that is loaned out from the "Sharpstown" branch and whose DueDate is today, retrieve the book title, the borrower's name, and the borrower's address.
 
-[5][dbo.uspBranchBooksOut.sql] For each library branch, retrieve the branch name and the total number of books loaned out from that branch.
+[5](uspBranchBooksOut.sql) For each library branch, retrieve the branch name and the total number of books loaned out from that branch.
 
-[6][dbo.uspBorrowers5books.sql] This procedure returns names, addresses, and number of books checked out for all borrowers who have more than five books checked out.
+[6](uspBorrowers5books.sql) This procedure returns names, addresses, and number of books checked out for all borrowers who have more than five books checked out.
 
-[7][dbo.uspBranchCopiesByStephenKing.sql] For each book authored (or co-authored) by "Stephen King", retrieve the title and the number of copies owned by the library branch whose name is "Central".
+[7](uspBranchCopiesByStephenKing.sql) For each book authored (or co-authored) by "Stephen King", retrieve the title and the number of copies owned by the library branch whose name is "Central".
